@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
-import about from './pages/about'
-import location from './pages/location'
+import about from '../pages/about'
+import Locations from '../pages/Locations/'
 
 const linkStyles = {
     textDecoration:"none"
@@ -27,10 +27,13 @@ const navStyles = {
 const NavBar = () => {
     return (
     <nav >
+       
         <ul style={navStyles}>
-            <li><Link style={linkStyles} to='/'>Home</Link></li>
+           
+            <li><Link style={linkStyles}  to='/'>Home</Link></li>
             <li><Link style={linkStyles} to='/about'>About</Link></li>
-            <li><Link style={linkStyles} to='/location'>Location </Link></li>
+            <li><Link style={linkStyles} to='/Locations'>Locations </Link></li>
+          
         </ul>
         
     </nav>

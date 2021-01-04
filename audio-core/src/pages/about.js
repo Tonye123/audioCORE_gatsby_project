@@ -1,13 +1,14 @@
 import * as React from 'react'
-import NavBar from '../NavBar'
+import Layout from '../components/Layout'
+
 
 const About = () => {
     return (
-        <div>
-            <NavBar />
+        <Layout>
+        
             <h1>About Page</h1>
             <p>AudioCORE has been in business....</p>
-        </div>
+        </Layout>
     )
 }
 

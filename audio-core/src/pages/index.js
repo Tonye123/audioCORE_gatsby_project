@@ -1,13 +1,10 @@
 import * as React from "react"
-import NavBar from '../NavBar'
-import About from './about'
+
+import Layout from '../components/Layout'
+
 
 // styles
-const pageStyles = {
-  color: "#232129",
-  padding: "96px",
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
-}
+
 const headingStyles = {
   marginTop: 0,
   marginBottom: 64,
@@ -64,11 +61,11 @@ const docLink = {
 // markup
 const IndexPage = () => {
   return (
-    <>
-    <NavBar />
-    <main style={pageStyles}>
+    <Layout>
+
+    <div>
       <title>Home Page</title>
-      <h1 style={headingStyles}>
+      <h1>
         Home Page
       </h1>
       <p>Welcome to AudioCORE....</p>
@@ -76,10 +73,10 @@ const IndexPage = () => {
     
      
      
-    </main>
-    </>
+    </div>
+    </Layout>
   )
 }
 
 export default IndexPage
-export {pageStyles,}
+
