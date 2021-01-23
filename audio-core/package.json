@@ -19,7 +19,7 @@
     "@contentful/rich-text-types": "^14.1.2",
     "contentful": "^8.1.7",
     "dotenv": "^8.2.0",
-    "gatsby": "^2.26.1",
+    "gatsby": "^2.31.1",
     "gatsby-source-contentful": "^4.5.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
